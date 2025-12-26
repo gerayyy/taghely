@@ -3,25 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>导航站</title>
+    <title>恐龙存档 ✨</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="header">
-        <h1>导航站</h1>
+        <div class="nav-header">
+            <h1>恐龙存档 🦕</h1>
+            <button class="nav-toggle" id="navToggle">☰</button>
+        </div>
         <nav class="nav-tabs">
-            <button class="tab-btn active" data-tab="all">全部</button>
-            <button class="tab-btn" data-tab="ai">AI与搜索</button>
-            <button class="tab-btn" data-tab="create">创作组</button>
-            <button class="tab-btn" data-tab="common">常用站点</button>
-            <button class="tab-btn" data-tab="video">视频网站</button>
-            <button class="tab-btn" data-tab="tools">小工具&资料</button>
+            <button class="tab-btn active" data-tab="all">✨ ALL</button>
+            <button class="tab-btn" data-tab="ai">🤖 AI AI</button>
+            <button class="tab-btn" data-tab="create">🎨 创作</button>
+            <button class="tab-btn" data-tab="common">🌟 星标</button>
+            <button class="tab-btn" data-tab="video">🎬 视频</button>
+            <button class="tab-btn" data-tab="tools">🔧 工具</button>
         </nav>
+        <div class="nav-footer">
+            <p>✨ 小心礁石 关注灯塔 🦕</p>
+        </div>
     </header>
 
     <main class="main-content">
         <section class="site-section" data-category="ai">
-            <h2 class="section-title">AI与搜索</h2>
+            <h2 class="section-title">🤖 AI与搜索</h2>
             <div class="site-grid">
                 <a href="https://chat.deepseek.com/" class="site-card" target="_blank" rel="noopener">
                     <span class="site-name">DeepSeek</span>
@@ -72,7 +78,7 @@
         </section>
 
         <section class="site-section" data-category="create">
-            <h2 class="section-title">创作组</h2>
+            <h2 class="section-title">🎨 创作组</h2>
             <div class="site-grid">
                 <a href="https://channels.weixin.qq.com/login.html" class="site-card" target="_blank" rel="noopener">
                     <span class="site-name">视频号助手</span>
@@ -99,7 +105,7 @@
         </section>
 
         <section class="site-section" data-category="common">
-            <h2 class="section-title">常用站点</h2>
+            <h2 class="section-title">🌟 常用站点</h2>
             <div class="site-grid">
                 <a href="https://qingflow.com/index/home" class="site-card" target="_blank" rel="noopener">
                     <span class="site-name">轻流</span>
@@ -177,7 +183,7 @@
         </section>
 
         <section class="site-section" data-category="video">
-            <h2 class="section-title">视频网站</h2>
+            <h2 class="section-title">🎬 视频网站</h2>
             <div class="site-grid">
                 <a href="https://www.douyin.com/" class="site-card" target="_blank" rel="noopener">
                     <span class="site-name">抖音</span>
@@ -210,7 +216,7 @@
         </section>
 
         <section class="site-section" data-category="tools">
-            <h2 class="section-title">小工具&资料</h2>
+            <h2 class="section-title">🔧 小工具&资料</h2>
             <div class="site-grid">
                 <a href="https://www.waytoagi.com/zh" class="site-card" target="_blank" rel="noopener">
                     <span class="site-name">通往AGI之路</span>
@@ -269,10 +275,6 @@
             </div>
         </section>
     </main>
-
-    <footer class="footer">
-        <p>导航站 - 纯粹·简洁·高效</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
